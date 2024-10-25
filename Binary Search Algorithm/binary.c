@@ -13,8 +13,6 @@
       printf("H e l l o m World");
       printf("H e l l o m World");
       printf("H e l l o m World");
-    printf("xxxxxxxxxxxxx");
-   
     return 0;
    
 }
