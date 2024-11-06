@@ -7,14 +7,13 @@
     int left, n, i, right, mid, target;
     left = 0;
 
-
     //Taking array size from the user
     printf("Enter the size of the array: ");
     scanf("%d", &n);
     right = n-1;
     int arr[n];
 
-
+  //Sorting array
     //Taking input array data using loop
     printf("Enter the elements: ");
     for (i = 0; i < n; i++)
@@ -22,7 +21,7 @@
       scanf("%d", &arr[i]); 
     }
 
-
+   //Sorting array
     //Taking searching value from the user
     printf("Enter the target value: ");
     scanf("%d", &target);
